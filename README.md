@@ -18,5 +18,5 @@ The Vite app lives in **`client/`**. Root **`package.json`** installs and builds
 | Error | Fix |
 |-------|-----|
 | `Failed to locate package.json` | Root Directory must be **empty** (uses root `package.json`) **or** exactly **`client`** — not both mixed with wrong output path. |
-| `vite: command not found` | Do not run bare `vite build` at repo root; use **`npm run build`**. |
+| `react-scripts: command not found` | Dashboard mein **Build Command** `react-scripts build` hai — yeh CRA ke liye hai. **Override hatao** ya likho: **`npm run build`**. |
 
